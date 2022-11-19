@@ -6,11 +6,11 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_INCLUDE_DIRECTORIES ${CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES})
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-find_package(GTest)
+find_package(Catch2 REQUIRED)
 
 add_executable(test_something test_something.cpp)
 add_test(test_something test_something)
-target_link_libraries(test_something PRIVATE GTest::gmock GTest::gmock_main)
+target_link_libraries(test_something PRIVATE Catch2::Catch2)
 
 add_custom_target(  
     copy-compile-commands ALL

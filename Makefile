@@ -9,7 +9,7 @@ build:
 
 .PHONY: test
 test:
-	GTEST_COLOR=1 ctest --output-on-failure --test-dir ${BUILDDIR}
+	ctest --output-on-failure --test-dir ${BUILDDIR}
 
 .PHONY: clean
 clean:

@@ -1,10 +1,15 @@
-#include <string>
+#include <catch2/catch_test_macros.hpp>
 
-#include <gmock/gmock.h>
-
-TEST(Something, SomethingPass)
+uint32_t
+factorial(uint32_t number)
 {
-    std::string value{"foo"};
-    EXPECT_TRUE(true);
-    EXPECT_EQ(value, "foo");
+    return number <= 1 ? number : factorial(number - 1) * number;
+}
+
+TEST_CASE("Factorials are computed", "[factorial]")
+{
+    REQUIRE(factorial(1) == 1);
+    REQUIRE(factorial(2) == 2);
+    REQUIRE(factorial(3) == 6);
+    REQUIRE(factorial(10) == 3'628'800);
 }

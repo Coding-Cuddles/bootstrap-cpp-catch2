@@ -2,7 +2,7 @@
     deps = [
         pkgs.clang_12
         pkgs.cmake
-        pkgs.gtest
+        pkgs.catch2
         pkgs.ninja
     ];
 }

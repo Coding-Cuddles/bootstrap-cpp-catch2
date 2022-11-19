@@ -1,6 +1,6 @@
 # Bootstrap for C++ katas
 
-[![Run on Replit](https://replit.com/badge/github/megabyde/bootstrap-cpp-kata)](https://replit.com/new/github/megabyde/bootstrap-cpp-kata)
+[![Run on Replit](https://replit.com/badge/github/Coding-Cuddles/bootstrap-cpp-catch2)](https://replit.com/new/github/Coding-Cuddles/bootstrap-cpp-catch2)
 
 ## Overview
 
@@ -15,7 +15,7 @@ and it will handle all dependencies automatically.
 
 * [CMake 3.19+](https://cmake.org)
 * [Ninja](https://ninja-build.org)
-* [GTest](https://github.com/google/googletest)
+* [Catch2](https://github.com/catchorg/Catch2)
 
 ### Build
 
