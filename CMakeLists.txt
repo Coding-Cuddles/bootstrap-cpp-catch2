@@ -10,7 +10,7 @@ find_package(Catch2 REQUIRED)
 
 add_executable(main main.cpp)
 
-file(GLOB tests "${PROJECT_SOURCE_DIR}/test_*.cpp")
+file(GLOB tests test_*.cpp)
 foreach(test ${tests})
     get_filename_component(name ${test} NAME_WE)
     add_executable(${name} ${test})
