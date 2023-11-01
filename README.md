@@ -1,6 +1,6 @@
 # Bootstrap for C++ katas
 
-[![Run on Replit](https://replit.com/badge/github/Coding-Cuddles/bootstrap-cpp-catch2)](https://replit.com/new/github/Coding-Cuddles/bootstrap-cpp-catch2)
+[![Replit](https://img.shields.io/badge/Try%20with%20Replit-black?logo=replit)](https://replit.com/new/github/Coding-Cuddles/bootstrap-cpp-catch2)
 
 ## Overview
 
@@ -8,8 +8,8 @@ This is a bootstrap repository for clean code katas in C++17 using Catch2.
 
 ## Usage
 
-You can import this project into [Replit](https://replit.com),
-and it will handle all dependencies automatically.
+You can import this project into [Replit](https://replit.com), and it will
+handle all dependencies automatically.
 
 ### Prerequisites
 
