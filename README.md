@@ -68,6 +68,25 @@ and run the setup commands again.
 
 Setup is complete when CTest reports `100% tests passed`.
 
+## Work on the kata
+
+1. Replace the starter assertions in `test_something.cpp` with the first kata test.
+
+2. Run the tests after each change. Use Make when it is installed:
+
+   ```console
+   make test
+   ```
+
+   Otherwise, use CMake and CTest directly:
+
+   ```console
+   cmake --build build --config Debug
+   ctest --test-dir build --build-config Debug --output-on-failure
+   ```
+
+   Continue when CTest reports `100% tests passed`.
+
 ## Make command reference
 
 Make is optional. Run `make` or `make help` to list these commands in the
